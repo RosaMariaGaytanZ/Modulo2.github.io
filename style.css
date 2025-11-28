@@ -1,0 +1,38 @@
+.tarjeta-intrumentos{
+    width: 280px;
+    background-color: rgba(214, 205, 192, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.producto-img{
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+}
+
+.producto-titulo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.producto-desc{
+    font-size: 14px;
+    color: coral;
+}
+
+.producto-btn{
+    background-color: rgb(228, 147, 109);
+    color: whitesmoke;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer ;
+    transition: 0.3s;
+}
+
+.producto-btn:hover{
+    background-color: rgb(226, 190, 112);
+}
