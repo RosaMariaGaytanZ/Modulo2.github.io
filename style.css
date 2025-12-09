@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(237, 231, 221);
+    color: #333;
+}
+
 
 .tarjeta-intrumentos{
     width: 280px;
-    background-color: rgba(214, 205, 192, 0.667);
+    background-color: rgba(217, 193, 159, 0.667);
     border-radius: 10px;
     text-align: center;
     display: inline-block;
