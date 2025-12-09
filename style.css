@@ -16,7 +16,32 @@ header, main{
     margin: 0 auto;
 }
 
+.top-banner{
+    background-color: rgb(245, 167, 23);
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: black;
+}
 
+.nav-principal{
+    background-color: beige;
+    top: 0;
+    padding: 15px 25px ;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+*/
+ .logo{
+    font-size: 40px;
+    font-weight: bold;
+ }
 
 .tarjeta-intrumentos{
     width: 280px;
