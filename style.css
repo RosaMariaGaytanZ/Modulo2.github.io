@@ -245,6 +245,66 @@ header, main{
     padding: 10px;
 }
 
+/*calificacion */
+
+.calificacion-tarjeta{
+    width: 330px;
+    background: rgb(234, 184, 91);
+    padding: 25px;
+    border-radius: 20px;
+    color: rgb(28, 17, 17);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    margin: 0 10px 0 40px;
+    padding: 25px;
+}
+
+.calificacion-desc{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.calificacion-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.calificacion-btn button{
+    background: rgb(100, 57, 26) ;
+    color: rgb(163, 133, 109);
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.calificacion-btn button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+.calificacion-enviar{
+    width: 100%;
+    background: rgb(62, 29, 29);
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    color: bisque;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.calificacion-enviar:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
 /*contacto*/
 
 .contacto-contenido{
