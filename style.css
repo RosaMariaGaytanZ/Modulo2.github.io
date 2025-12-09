@@ -41,6 +41,29 @@ header, main{
  .logo{
     font-size: 40px;
     font-weight: bold;
+    transition: 0.3s;
+ }
+
+ /*
+ .logo:hover{
+    transform: scale(1.2);
+ }
+*/
+
+ .nav-lista{
+    list-style: none;
+ }
+
+ .nav-lista a{
+    text-decoration: none;
+    color:  rgb(79, 40, 6);
+    font-weight: bold;
+    transition: .3s;
+    font-size: 20px;
+ }
+
+ .nav-lista a:hover{
+    color: orange;
  }
 
 .tarjeta-intrumentos{
