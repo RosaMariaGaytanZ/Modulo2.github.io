@@ -41,16 +41,16 @@ header, main{
 }
 */
  .logo{
+    display: inline-block;
     font-size: 40px;
     font-weight: bold;
-    transition: 0.3s;
+    transition: transform 0.3s ease;
+ }
+ 
+ .logo:hover{
+    transform: translateY(-10px);
  }
 
- /*
- .logo:hover{
-    transform: scale(1.2);
- }
-*/
 
  .nav-lista{
     list-style: none;
@@ -126,6 +126,10 @@ header, main{
 
 .producto-btn:hover{
     background-color: rgb(226, 190, 112);
+}
+
+.form-contacto{
+
 }
 
 .boton-carrito{
