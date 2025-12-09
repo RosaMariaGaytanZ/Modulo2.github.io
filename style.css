@@ -128,7 +128,14 @@ header, main{
     background-color: rgb(226, 190, 112);
 }
 
+.contacto-contenido{
+    margin-top: 40px;
+}
+
 .form-contacto{
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
 
 }
 
