@@ -1,3 +1,11 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .tarjeta-intrumentos{
     width: 280px;
     background-color: rgba(214, 205, 192, 0.667);
@@ -38,3 +46,4 @@
 .producto-btn:hover{
     background-color: rgb(226, 190, 112);
 }
+
