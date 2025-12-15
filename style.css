@@ -319,18 +319,27 @@ header, main{
 
 /*contacto*/
 
-.contacto-contenido{
+.contacto-section{
     margin-top: 40px;
     display: flex;
     gap: 20px;
     align-items: flex-start;
+    flex-wrap: wrap;
 
+}
+.contacto-contenido,
+.contacto-aside{
+    flex: 1 1 80px;
 }
 
 .form-contacto{
     background: whitesmoke;
     padding: 20px;
     border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
