@@ -22,6 +22,7 @@ header, main{
     padding: 6px 10px;
     font-size: 14px;
     color: black;
+    text-transform: uppercase;
 }
 
 .nav-principal{
@@ -32,6 +33,12 @@ header, main{
     margin: 0 auto;
     position: sticky;
     z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 
@@ -54,6 +61,11 @@ header, main{
 
  .nav-lista{
     list-style: none;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 50px;
  }
 
  .nav-lista a{
@@ -309,6 +321,10 @@ header, main{
 
 .contacto-contenido{
     margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+
 }
 
 .form-contacto{
