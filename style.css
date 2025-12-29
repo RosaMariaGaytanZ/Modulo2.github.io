@@ -614,4 +614,22 @@ footer{
   }
 }
 
+/* ===== Media query para tablet ===== */
 
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .catalogo-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tarjeta-intrumentos,
+  .tarjeta-accesorios {
+    width: 45%;
+  }
+
+  .equipo-card {
+    width: 45%;
+  }
+}
