@@ -544,3 +544,74 @@ footer{
     color: black;
 }
 
+/* Medida para movil*/
+
+@media (max-width: 768px) {
+
+  /* ===== NAV ===== */
+  .nav-principal {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .nav-lista {
+    flex-direction: column;
+    margin-right: 0;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  /* ===== CATÁLOGOS ===== */
+  .catalogo-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta-intrumentos,
+  .tarjeta-accesorios {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  /* ===== EQUIPO ===== */
+  .equipo-contenedor {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .equipo-card {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  /* ===== CALIFICACIÓN ===== */
+  .calificacion-tarjeta {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* ===== CONTACTO ===== */
+  .contacto-section {
+    flex-direction: column;
+  }
+
+  .boton-mensaje {
+    width: 100%;
+  }
+
+  /* ===== BOTÓN CARRITO ===== */
+  .boton-carrito {
+    font-size: 14px;
+    padding: 10px 16px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+
