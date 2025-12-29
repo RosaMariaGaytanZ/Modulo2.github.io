@@ -478,6 +478,30 @@ h4{
     line-height: 1;
 }
 
+/* galeria */
+
+.galeria{
+    padding: 25px;
+}
+
+.grid-galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.grid-galeria img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.grid-galeria img:hover{
+    transform: scale(1.05);
+}
+
 .btn-abrir {
     padding: 10px 20px;
     background-color: #007BFF;
